@@ -1,0 +1,41 @@
+.page__footer {
+  display          : flex;
+  margin-top       : auto;
+  align-items      : center;
+  flex-direction   : column;
+  background-color : $crimson;
+
+  &-title {
+    color : $white;
+  }
+
+  .container {
+    max-width : rem(1440);
+  }
+
+  .social__navigation {
+    
+    li {
+      height     : 100%;
+      // max-height : rem(90);
+      padding: rem(8);
+    } 
+    
+    .icon {
+      color           : $white;
+      width           : rem(90);
+      cursor          : pointer;
+      height          : rem(90);
+      display         : flex;
+      z-index         : 1;
+      position        : relative;
+      font-size       : rem(32);
+      background      : $blacktop;
+      text-align      : center;
+      align-items     : center;
+      border-radius   : 50%;
+      flex-direction  : column;
+      justify-content : center;
+    }
+  }
+}

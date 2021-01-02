@@ -1,0 +1,45 @@
+{
+	"section_title": "What People Are Saying...",
+	"testimonials": [
+		{
+      "client": "Amy LaCour",
+      "quote": "He listened closely to what I was after and delivered a beautiful website. Jason is open to suggestions, has great aesthetic taste, and is entirely professional.",
+      "href": "http://linkedin.com/pub/amy-lacour/b/68b/9ab"
+		},
+    {
+      "client": "Colby Palmer",
+      "quote": "He’s loyal, dedicated and easy to get along with. He is a valuable person in my engineering team and I recommend his work highly.",
+      "href": "http://linkedin.com/in/colbypalmer"
+    },
+    {
+      "client": "Rich Rosales",
+      "quote": "Jason is always willing to give a helping hand to his colleagues. He always puts an incredible attention to detail and his creativity and design sense are rare traits for someone who can also code exceptionally well.",
+      "href": "http://linkedin.com/in/rrosales"      
+    },
+    {
+      "client": "Jayson Oertel",
+      "quote": "Jason is always willing to give a helping hand to his colleagues. He always puts an incredible attention to detail and his creativity and design sense are rare traits for someone who can also code exceptionally well.",
+      "href": "http://linkedin.com/in/jaysonoertel"      
+    },
+    {
+      "client": "Venus Ang",
+      "quote": "He meets all deadlines and is very dedicated to providing quality deliverables. It is a pleasure having worked with Jason.",
+      "href": "http://missdemilo.com"      
+    },
+    {
+      "client": "Jeff Barnaby",
+      "quote": "Jason is extremely creative and has an eye for innovative design. Very skilled, great person to work with, highly recommended.",
+      "href": "http://linkedin.com/in/jeffbarnaby"      
+    },
+    {
+      "client": "Kelly McSweeney",
+      "quote": "Jason is an extremely talented design and web development professional. He is a really genuine guy, nothing is too much trouble. It is very comforting to know that someone with his expertise and knowledge was looking after our website.",
+      "href": "http://linkedin.com/in/ksimonich"      
+    },
+    {
+      "client": "Allison Wehrley",
+      "quote": "He is incredibly easy to work with, very driven and the definition of a team player. Any company would be lucky to work with him.",
+      "href": "http://linkedin.com/in/allisonwehrley"      
+    }        
+	]
+}

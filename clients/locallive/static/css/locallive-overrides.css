@@ -1,0 +1,456 @@
+/* ================================
+LOCAL LIVE CSS OVERRIDES
+================================ */
+body {
+  font-family: 'Roboto', sans-serif; }
+
+/* ================================
+NAVIGATION & LINKS
+================================ */
+nav.navbar {
+  display: block; }
+
+.search-link,
+.account-link {
+  width: 20px;
+  height: 20px;
+  background-position: center;
+  background-repeat: no-repeat; }
+
+.search-link {
+  background-image: url("../img/icon-search.png"); }
+  .search-link:hover {
+    background-image: url("../img/icon-search-hover.png"); }
+
+.account-link {
+  background-image: url("../img/icon-user.png"); }
+  .account-link:hover {
+    background-image: url("../img/icon-user-hover.png"); }
+
+/* ================================
+EVENTS SUBNAVIGATION
+================================ */
+.events-tabs a {
+  color: #000;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 14px;
+  padding: 2px 16px; }
+
+.events-tabs a span {
+  padding: 2px 0; }
+
+.events-tabs a.active span {
+  border-bottom: 1px solid #e5232e; }
+
+/* ================================
+MARKETING AD UNITS
+================================ */
+.marketing-unit img {
+  display: block; }
+
+/* ================================
+SCHOOL LOGO AND NAME
+================================ */
+.school-logo {
+  max-width: 50px;
+  display: inline-block;
+  vertical-align: middle; }
+  @media only screen and (min-width: 576px) {
+    .school-logo {
+      max-width: 74px; } }
+
+.school-title {
+  display: inline-block;
+  vertical-align: middle; }
+
+.school-name {
+  display: inline-block;
+  max-width: 200px;
+  font-size: 20px;
+  vertical-align: middle;
+  color: #5d5d5d;
+  font-weight: 500; }
+  @media only screen and (min-width: 576px) {
+    .school-name {
+      width: 210px; } }
+  @media only screen and (min-width: 768px) {
+    .school-name {
+      min-width: 180px;
+      width: 100%;
+      font-size: 18px; } }
+  @media only screen and (min-width: 992px) {
+    .school-name {
+      min-width: 200px;
+      font-size: 22px; } }
+
+.twitter-nav-link {
+  width: 20px;
+  height: 20px;
+  top: 8px;
+  right: 0;
+  position: absolute;
+  background-image: url("../img/icon-twitter-2.png"); }
+  .twitter-nav-link:hover {
+    background-image: url("../img/icon-twitter-2-hover.png"); }
+  @media only screen and (min-width: 576px) {
+    .twitter-nav-link {
+      clear: left;
+      position: relative; } }
+
+header .row {
+  position: relative; }
+
+/* ================================
+FILTER DROPDOWNS
+================================ */
+.events-filters .filter {
+  width: 100%;
+  border: 1px solid #4f4f4f;
+  padding: 12px 16px;
+  border-radius: 2px; }
+  @media only screen and (min-width: 768px) {
+    .events-filters .filter {
+      display: inline-block;
+      padding: 8px 12px;
+      font-size: 12px;
+      vertical-align: middle; } }
+  .events-filters .filter button {
+    width: 100%;
+    border: none;
+    padding: 0;
+    font-size: 16px;
+    text-align: left;
+    cursor: pointer; }
+    .events-filters .filter button:focus {
+      box-shadow: none; }
+    .events-filters .filter button:after {
+      top: 50%;
+      height: 14px;
+      width: 14px;
+      right: 16px;
+      position: absolute;
+      -webkit-transform: translateY(-50%);
+              transform: translateY(-50%);
+      border: none;
+      background-image: url("../img/icon-dropdown-arrow.png");
+      background-repeat: no-repeat; }
+    @media only screen and (min-width: 768px) {
+      .events-filters .filter button {
+        font-size: 12px; } }
+
+.events-filters select {
+  font-size: 16px;
+  color: #4f4f4f;
+  font-weight: 500;
+  outline: 0;
+  display: block;
+  appearance: none;
+  text-overflow: ellipsis;
+  -o-appearance: none;
+  -moz-appearance: none;
+  background-color: #fff;
+  background-image: url("../img/icon-dropdown-arrow.png");
+  background-repeat: no-repeat;
+  background-position: right 16px center;
+  -webkit-appearance: none;
+  cursor: pointer; }
+  @media only screen and (min-width: 768px) {
+    .events-filters select {
+      font-size: 10px; } }
+  @media only screen and (min-width: 992px) {
+    .events-filters select {
+      font-size: 12px; } }
+
+.events-filters .dropdown-menu {
+  font-size: 16px;
+  color: #4f4f4f;
+  font-weight: 500;
+  border: 1px solid rgba(151, 151, 151, 0.25);
+  padding: 24px 12px;
+  min-width: 345px;
+  box-shadow: 0 2px 14px 0 rgba(0, 0, 0, 0.22);
+  border-radius: 1px; }
+  @media only screen and (min-width: 768px) {
+    .events-filters .dropdown-menu {
+      min-width: 500px;
+      font-size: 10px; } }
+  @media only screen and (min-width: 992px) {
+    .events-filters .dropdown-menu {
+      min-width: 720px;
+      font-size: 12px; } }
+  .events-filters .dropdown-menu .sports-list {
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+    list-style: none; }
+  .events-filters .dropdown-menu .list-item {
+    width: 42%;
+    margin: 0 12px;
+    display: inline-block;
+    padding: 8px 0;
+    position: relative;
+    font-size: 12px;
+    border-bottom: 1px solid #d8d8d8; }
+    @media only screen and (min-width: 576px) {
+      .events-filters .dropdown-menu .list-item {
+        width: 28%; } }
+    @media only screen and (min-width: 992px) {
+      .events-filters .dropdown-menu .list-item {
+        width: 21.5%; } }
+    .events-filters .dropdown-menu .list-item label {
+      margin: 0; }
+    .events-filters .dropdown-menu .list-item input[type="checkbox"] {
+      position: absolute;
+      right: 0;
+      top: 50%;
+      -webkit-transform: translate3d(0, -50%, 0);
+              transform: translate3d(0, -50%, 0); }
+
+.events-filters .clear-all-link {
+  color: #4f4f4f;
+  text-decoration: none;
+  font-size: 12px; }
+  .events-filters .clear-all-link:hover {
+    color: #b4b4b4; }
+
+/* ================================
+SCHEDULE FEED
+================================ */
+.schedule-feed {
+  display: none; }
+  .schedule-feed.active {
+    display: block; }
+  .schedule-feed .no-events {
+    background-color: #f1f4f6;
+    font-size: 16px;
+    max-width: 600px; }
+    @media only screen and (min-width: 768px) {
+      .schedule-feed .no-events {
+        font-size: 22px; } }
+
+.table-events td {
+  padding: 12px 8px; }
+
+.table-events .event-date,
+.table-events .event-time {
+  font-size: 12px; }
+  @media only screen and (min-width: 576px) {
+    .table-events .event-date,
+    .table-events .event-time {
+      font-size: 14px; } }
+
+.table-events .event-date {
+  display: block; }
+  @media only screen and (min-width: 992px) {
+    .table-events .event-date {
+      display: inline-block;
+      min-width: 100px;
+      margin-right: 40px; } }
+
+.table-events .event-desc {
+  font-size: 14px; }
+
+.table-events.table-striped tbody tr {
+  background-color: #f1f4f6; }
+
+.table-events.table-striped.table td,
+.table-events.table-striped.table th {
+  border-top: 10px solid #fff; }
+
+.table-events .watch-link {
+  width: 25px;
+  color: #1a1a1a;
+  border: 1px solid #656666;
+  height: 25px;
+  display: inline-block;
+  padding: 4px;
+  border-radius: 100px;
+  font-size: 11px;
+  font-weight: 500; }
+  .table-events .watch-link:hover {
+    text-decoration: none;
+    background-color: #a7b3ba;
+    color: #fff;
+    border-color: rgba(255, 255, 255, 0.83); }
+    .table-events .watch-link:hover .play-icon {
+      background-image: url("../img/icon-play-hover.png"); }
+  @media only screen and (min-width: 768px) {
+    .table-events .watch-link {
+      width: 76px;
+      height: 24px;
+      padding: 4px 12px; } }
+  .table-events .watch-link .play-icon {
+    vertical-align: text-top;
+    width: 14px;
+    height: 14px;
+    display: inline-block;
+    margin-left: 2px;
+    background-image: url("../img/icon-play.png");
+    background-position: center;
+    background-repeat: no-repeat; }
+    @media only screen and (min-width: 768px) {
+      .table-events .watch-link .play-icon {
+        margin-left: 0;
+        vertical-align: middle; } }
+  .table-events .watch-link .link-label {
+    width: auto;
+    margin: 0 0 0 4px;
+    display: none;
+    text-align: center;
+    vertical-align: middle; }
+    @media only screen and (min-width: 768px) {
+      .table-events .watch-link .link-label {
+        display: inline-block; } }
+
+/* ================================
+TWITTER FEED
+================================ */
+.twitter-feed {
+  display: none; }
+  .twitter-feed.active {
+    display: block; }
+
+/* ================================
+VIDEO
+================================ */
+.event-header .event-title {
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 500;
+  color: #5d5d5d; }
+  @media only screen and (min-width: 768px) {
+    .event-header .event-title {
+      font-size: 22px; } }
+
+.event-scoreboard {
+  background-color: #f1f4f6; }
+  .event-scoreboard .team-label {
+    font-size: 10px;
+    font-weight: 300; }
+  .event-scoreboard .team-logo {
+    max-width: 42px;
+    max-height: 42px; }
+  .event-scoreboard .team-name {
+    font-size: 12px;
+    font-weight: 500; }
+    @media only screen and (min-width: 768px) {
+      .event-scoreboard .team-name {
+        font-size: 14px; } }
+    .event-scoreboard .team-name span {
+      max-width: 77px;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis; }
+      @media only screen and (min-width: 576px) {
+        .event-scoreboard .team-name span {
+          max-width: 130px;
+          overflow: visible;
+          white-space: unset;
+          text-overflow: unset; } }
+  .event-scoreboard .team-points {
+    font-size: 28px; }
+  .event-scoreboard .score-separator {
+    -webkit-box-pack: center;
+            justify-content: center;
+    font-size: 28px;
+    color: #4f4f4f; }
+
+.production-byline .byline-label {
+  color: #4f4f4f;
+  font-size: 12px;
+  font-weight: 500; }
+
+.production-byline .star-ratings {
+  list-style: none;
+  padding: 0; }
+
+/* ================================
+FOOTER
+================================ */
+.footer {
+  color: #e9e9e9;
+  background-color: #000; }
+  .footer .footer-social-nav {
+    font-size: 0; }
+    .footer .footer-social-nav a {
+      width: 24px;
+      height: 24px;
+      background-position: center;
+      background-repeat: no-repeat; }
+    .footer .footer-social-nav .facebook {
+      display: inline-block;
+      background-image: url("../img/icon-facebook.png"); }
+      .footer .footer-social-nav .facebook:hover {
+        background-image: url("../img/icon-facebook-hover.png"); }
+    .footer .footer-social-nav .twitter {
+      background-image: url("../img/icon-twitter.png"); }
+      .footer .footer-social-nav .twitter:hover {
+        background-image: url("../img/icon-twitter-hover.png"); }
+    .footer .footer-social-nav .instagram {
+      background-image: url("../img/icon-instagram.png"); }
+      .footer .footer-social-nav .instagram:hover {
+        background-image: url("../img/icon-instagram-hover.png"); }
+  .footer .footer-text-nav a {
+    color: #e9e9e9;
+    line-height: 1;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.6px; }
+    .footer .footer-text-nav a:nth-child(2) {
+      border-width: 2px; }
+    .footer .footer-text-nav a:hover {
+      text-decoration: underline; }
+    @media only screen and (min-width: 576px) {
+      .footer .footer-text-nav a {
+        font-size: 15px;
+        letter-spacing: 0.75px; } }
+  .footer .copyright {
+    color: #b1b1b1;
+    font-size: 10px; }
+    @media only screen and (min-width: 576px) {
+      .footer .copyright {
+        font-size: 12px; } }
+
+/* ================================
+	MODALS
+================================ */
+.modal .modal-title {
+  font-size: 22px;
+  font-weight: 500;
+  letter-spacing: 1.1px; }
+
+.modal label {
+  letter-spacing: 0.9px;
+  font-weight: 500; }
+
+.modal input[type="text"],
+.modal select {
+  background-color: #f1f4f6;
+  border: none;
+  letter-spacing: 0.8px; }
+
+.modal .edit-link,
+.modal .sign-out-link {
+  color: #1a1a1a;
+  font-size: 12px;
+  letter-spacing: 0.6px; }
+  .modal .edit-link:hover,
+  .modal .sign-out-link:hover {
+    color: #b4b4b4;
+    text-decoration: none; }
+
+.modal .close {
+  color: #000;
+  opacity: 1; }
+  .modal .close:hover {
+    opacity: .5; }
+
+.modal .btn {
+  border: 1px solid #979797;
+  letter-spacing: 0.8px;
+  font-weight: 500; }
+  .modal .btn:hover {
+    background-color: #f1f4f6;
+    color: #000; }
+/*# sourceMappingURL=locallive-overrides.css.map */

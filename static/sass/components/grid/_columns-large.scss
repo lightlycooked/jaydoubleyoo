@@ -1,0 +1,67 @@
+// ============================================
+// 
+// *** LARGE COLUMNS ***
+// 
+// ============================================
+
+@media only screen and ($lg) {
+  .col-lg-1 {
+    flex      : 0 0 calc(1 / #{$columns} * 100% - #{$web-gutters});
+    max-width : calc(1 / #{$columns} * 100% - #{$web-gutters});
+  }
+
+  .col-lg-2 {
+    flex      : 0 0 calc(2 / #{$columns} * 100% - #{$web-gutters});
+    max-width : calc(2 / #{$columns} * 100% - #{$web-gutters});
+  }
+
+  .col-lg-3 {
+    flex      : 0 0 calc(3 / #{$columns} * 100% - #{$web-gutters});
+    max-width : calc(3 / #{$columns} * 100% - #{$web-gutters});
+  }
+
+  .col-lg-4 {
+    flex      : 0 0 calc(4 / #{$columns} * 100% - #{$web-gutters});
+    max-width : calc(4 / #{$columns} * 100% - #{$web-gutters});
+  }
+
+  .col-lg-5 {
+    flex      : 0 0 calc(5 / #{$columns} * 100% - #{$web-gutters});
+    max-width : calc(5 / #{$columns} * 100% - #{$web-gutters});
+  }
+
+  .col-lg-6 {
+    flex      : 0 0 calc(6 / #{$columns} * 100% - #{$web-gutters});
+    max-width : calc(6 / #{$columns} * 100% - #{$web-gutters});
+  }
+
+  .col-lg-7 {
+    flex      : 0 0 calc(7 / #{$columns} * 100% - #{$web-gutters});
+    max-width : calc(7 / #{$columns} * 100% - #{$web-gutters});
+  }
+
+  .col-lg-8 {
+    flex      : 0 0 calc(8 / #{$columns} * 100% - #{$web-gutters});
+    max-width : calc(8 / #{$columns} * 100% - #{$web-gutters});
+  }
+
+  .col-lg-9 {
+    flex      : 0 0 calc(9 / #{$columns} * 100% - #{$web-gutters});
+    max-width : calc(9 / #{$columns} * 100% - #{$web-gutters});
+  }
+
+  .col-lg-10 {
+    flex      : 0 0 calc(10 / #{$columns} * 100% - #{$web-gutters});
+    max-width : calc(10 / #{$columns} * 100% - #{$web-gutters});
+  }
+
+  .col-lg-11 {
+    flex      : 0 0 calc(11 / #{$columns} * 100% - #{$web-gutters});
+    max-width : calc(11 / #{$columns} * 100% - #{$web-gutters});
+  }
+
+  .col-lg-12 {
+    flex      : 0 0 calc(12 / #{$columns} * 100% - #{$web-gutters});
+    max-width : calc(12 / #{$columns} * 100% - #{$web-gutters});
+  }
+}

@@ -1,0 +1,134 @@
+
+// ============================================
+// 
+// *** BODY ***
+// 
+// ============================================
+
+body {
+  font-size               : rem(16);
+  line-height             : rem(24); 
+  font-family             : 'GothamThin', 'Helvetica Neue', Arial, sans-serif;
+  -webkit-font-smoothing  : antialiased;
+  -moz-osx-font-smoothing : grayscale;
+}
+
+p {
+  margin : 0;
+  text-rendering: optimizeLegibility;
+}
+
+// ============================================
+// 
+// *** DECK ***
+// 
+// ============================================
+
+.deck {
+  max-width : rem(600);
+  line-height : rem(28); 
+}
+
+
+// ============================================
+// 
+// *** DISPLAY HEADINGS ***
+// 
+// ============================================
+
+.display-heading-1 {
+  font-size   : rem(90);
+  line-height : rem(112);
+}
+
+
+// ============================================
+// 
+// BASIC HEADINGS
+// 
+// ============================================
+
+h1,h2,h3,h4,h5,h6 {
+  margin         : 0;
+  line-height    : 1.5;
+  font-family    : GothamThin, 'Helvetica Neue', Arial, sans-serif;
+  text-transform : uppercase; 
+}
+
+h1, 
+.heading-1 {
+  font-size   : rem(56);
+  // font-family : 'InspireHeavy';
+}
+
+h2,
+.heading-2 {
+  font-size     : rem(48);
+  margin-bottom : rem(48); 
+  // font-family : 'InspireHeavy'; 
+}
+
+h3,
+.heading-3 {
+  font-size      : rem(25);
+  // font-family    : 'InspireRoman';
+}
+
+h4,
+.heading-4 {
+  font-size      : rem(22);
+  // font-family    : 'InspireRoman';
+  // text-transform : capitalize;
+}
+
+h5,
+.heading-5 {
+  font-size      : rem(20);
+  // font-family    : 'InspireRoman'; 
+}
+
+h6,
+.heading-6 {
+  font-size      : rem(17);
+  font-family: 'GothamMedium';
+  // font-family    : 'InspireRoman'; 
+}
+
+
+// ============================================
+// 
+// BUTTONS
+// 
+// ============================================
+
+button,
+.button {
+  font-size      : rem(16); 
+  // font-family    : 'InspireRoman';
+  letter-spacing : rem(1);
+}
+
+
+// ============================================
+// 
+// FOOTNOTES
+// 
+// ============================================
+
+.footnote {
+  font-size      : rem(12); 
+  // font-family    : 'InspireRoman';
+}
+
+
+// ============================================
+// 
+// CAPTIONS
+// 
+// ============================================
+
+.caption {
+  font-size      : rem(11); 
+  // font-family    : 'InspireRoman';
+}
+

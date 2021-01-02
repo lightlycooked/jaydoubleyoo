@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en" class="h-100">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- Google Fonts: Roboto -->
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i&display=swap" rel="stylesheet">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+        <link rel="stylesheet" href="static/css/locallive-overrides.css" />
+        <title>LocalLive - Video</title>
+    </head>
+    <body class="d-flex flex-column h-100">
+        <nav class="navbar navbar-light bg-light py-3">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="static/img/logo-local-live.png" alt="LocalLive" />
+                </a>
+                <ul class="nav justify-content-end">
+                    <li class="nav-item">
+                        <a class="nav-link search-link py-0 px-0 mr-4" href="#" data-toggle="modal" data-target="#search-modal">
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link account-link py-0 px-0" href="#" data-toggle="modal" data-target="#account-modal">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="marketing-unit py-4">
+            <div class="row no-gutters">
+                <picture class="mx-auto">
+                    <source media="(min-width: 768px)" srcset="static/img/fpo-marketing-unit-728x90.png">
+                    <source media="(max-width: 767px)" srcset="static/img/fpo-marketing-unit-320x50.png">
+                    <img class="mx-auto" src="static/img/fpo-marketing-unit-728x90.png">
+                </picture>
+            </div>
+        </div>
+        <main class="event-content">
+            <div class="container align-content-between flex-wrap">
+                <div class="row no-gutters">
+                    <header class="event-header mb-3 col-11 col-sm-8 col-lg-6 pr-lg-5 order-lg-2 align-self-start">
+                        <h1 class="event-title">Boys Varsity Football: Bergen Catholic vs. Don Bosco</h1>
+                    </header>
+                    <section class="event-video mb-3 col-lg-12">
+                        <video class="video-player" width="100%" height="100%" controls>
+                            <source src="static/video/fpo.mp4" type="video/mp4">
+                        </video>
+                    </section>
+                    <section class="event-scoreboard mb-3 p-2 col-lg-6 order-lg-2">
+                        <div class="row no-gutters">
+                            <div class="home-team col-5 my-2 d-flex flex-column">
+                                <div class="team-label text-uppercase text-left mb-1">Home</div>
+                                <div class="d-flex flex-row">
+                                    <img class="team-logo d-flex align-items-center" src="static/img/fpo-team-logo.png" />
+                                    <div class="team-name d-flex align-items-center text-uppercase  ml-2 ml-md-3"><span class="text-left">Team Name</span></div>
+                                </div>
+                            </div>
+                            <div class="score-separator col-2 d-flex flex-row justify-content-center">
+                                <!-- <div class="home-team-points d-flex align-items-center ml-auto mr-n3 mr-sm-n4 mr-md-n5">3</div> -->
+                                <div class="row no-gutters">
+                                    <div class="home-team-points mt-3 align-self-center">3</div>
+                                    <div class="colon align-self-center mb-n1 mt-2 px-1">:</div>
+                                    <div class="away-team-points mt-3 align-self-center">3</div>
+                                </div>
+                                <!-- <div class="away-team-points d-flex align-items-center mr-auto ml-n3 ml-sm-n4 ml-md-n5">3</div> -->
+                            </div>
+                            <div class="away-team col-5 my-2 d-flex flex-column">
+                                <div class="team-label text-uppercase text-right mb-1">Away</div>
+                                <div class="d-flex flex-row-reverse">
+                                    <img class="team-logo d-flex align-items-center" src="static/img/fpo-team-logo.png" />
+                                    <div class="team-name d-flex align-items-center text-uppercase mr-2 mr-md-3"><span class="text-right">Super Duper Long Team Name</span></div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="production-byline col-lg-6 order-lg-3 align-self-end mt-lg-n5">
+                        <div class="byline-label">Produced by Elephant Shoes</div>
+                        <ul class="star-ratings d-flex flex-row">
+                            <li><img src="static/img/icon-star.png" /></li>
+                            <li><img src="static/img/icon-star.png" /></li>
+                            <li><img src="static/img/icon-star.png" /></li>
+                            <li><img src="static/img/icon-star.png" /></li>
+                            <li><img src="static/img/icon-star.png" /></li>
+                        </ul>
+                    </section>
+                </div>
+            </div>
+        </main>
+        <footer class="footer mt-auto py-3">
+            <div class="container">
+                <ul class="nav footer-social-nav justify-content-center mb-3">
+                    <li class="nav-item px-1">
+                        <a class="nav-link twitter align-middle" href="#">
+                        </a>
+                    </li>
+                    <li class="nav-item px-1">
+                        <a class="nav-link instagram align-middle" href="#">
+                        </a>
+                    </li>
+                    <li class="nav-item  px-1">
+                        <a class="nav-link facebook align-middle" href="#">
+                        </a>
+                    </li>
+                </ul>
+                <ul class="nav footer-text-nav justify-content-center mb-4">
+                    <li class="nav-item">
+                        <a class="nav-link text-uppercase py-0 px-2 px-sm-3" href="#">How it Works</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-uppercase border-left border-right py-0 px-2 px-sm-3" href="#">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-uppercase py-0 px-2 px-sm-3" href="#">About Us</a>
+                    </li>
+                </ul>
+                <p class="copyright text-center">Copyright &copy 2019 LocalLive Networks. All Rights Reserved.</p>
+            </div>
+        </footer>
+        <div class="modal fade" id="search-modal" tabindex="-1" role="dialog" aria-labelledby="search-modal-label" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header border-0">
+                        <h4 class="modal-title text-center col-12" id="search-modal-label">Search</h4>
+                        <button type="button" class="close ml-n5" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="form-group">
+                                <input type="text" class="form-control form-control-sm" id="search" placeholder="Search">
+                            </div>
+                            <div class="form-group d-flex justify-content-center">
+                                <button type="button" class="btn btn-outline-dark rounded-pill px-5 mx-auto mb-4">Search</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="account-modal" tabindex="-1" role="dialog" aria-labelledby="account-modal-label" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header border-0">
+                        <h4 class="modal-title text-center col-12" id="account-modal-label">Profile</h4>
+                        <button type="button" class="close ml-n5" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="mt-n4  mx-auto text-center"><a class="edit-link" href="#">Edit</a></div>
+                        <form>
+                            <div class="form-row">
+                                <div class="form-group col-12">
+                                    <label>My Schools</label>
+                                    <select class="my-schools-list form-control form-control-sm">
+                                        <option>My School 1</option>
+                                        <option>My School 2</option>
+                                        <option>My School 3</option>
+                                        <option>My School 4</option>
+                                        <option>My School 5</option>
+                                        <option>My School 6</option>
+                                        <option>My School 7</option>
+                                        <option>My School 8</option>
+                                        <option>My School 9</option>
+                                        <option>My School 10</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="dropdown-divider my-4"></div>
+                            <div class="form-row">
+                                <label class="col-12">Add School</label>
+                                <div class="form-group col-2">
+                                    <select class="school-state-list form-control form-control-sm">
+                                        <option value="AL">AL</option>
+                                        <option value="AK">AK</option>
+                                        <option value="AR">AR</option>
+                                        <option value="AZ">AZ</option>
+                                        <option value="CA">CA</option>
+                                        <option value="CO">CO</option>
+                                        <option value="CT">CT</option>
+                                        <option value="DC">DC</option>
+                                        <option value="DE">DE</option>
+                                        <option value="FL">FL</option>
+                                        <option value="GA">GA</option>
+                                        <option value="HI">HI</option>
+                                        <option value="IA">IA</option>
+                                        <option value="ID">ID</option>
+                                        <option value="IL">IL</option>
+                                        <option value="IN">IN</option>
+                                        <option value="KS">KS</option>
+                                        <option value="KY">KY</option>
+                                        <option value="LA">LA</option>
+                                        <option value="MA">MA</option>
+                                        <option value="MD">MD</option>
+                                        <option value="ME">ME</option>
+                                        <option value="MI">MI</option>
+                                        <option value="MN">MN</option>
+                                        <option value="MO">MO</option>
+                                        <option value="MS">MS</option>
+                                        <option value="MT">MT</option>
+                                        <option value="NC">NC</option>
+                                        <option value="NE">NE</option>
+                                        <option value="NH">NH</option>
+                                        <option value="NJ">NJ</option>
+                                        <option value="NM">NM</option>
+                                        <option value="NV">NV</option>
+                                        <option value="NY">NY</option>
+                                        <option value="ND">ND</option>
+                                        <option value="OH">OH</option>
+                                        <option value="OK">OK</option>
+                                        <option value="OR">OR</option>
+                                        <option value="PA">PA</option>
+                                        <option value="RI">RI</option>
+                                        <option value="SC">SC</option>
+                                        <option value="SD">SD</option>
+                                        <option value="TN">TN</option>
+                                        <option value="TX">TX</option>
+                                        <option value="UT">UT</option>
+                                        <option value="VT">VT</option>
+                                        <option value="VA">VA</option>
+                                        <option value="WA">WA</option>
+                                        <option value="WI">WI</option>
+                                        <option value="WV">WV</option>
+                                        <option value="WY">WY</option>
+                                    </select>
+                                </div>
+                                <div class="form-group col-10">
+                                    <select class="school-name-list form-control form-control-sm">
+                                        <option>School 1</option>
+                                        <option>School 2</option>
+                                        <option>School 3</option>
+                                        <option>School 4</option>
+                                        <option>School 5</option>
+                                        <option>School 6</option>
+                                        <option>School 7</option>
+                                        <option>School 8</option>
+                                        <option>School 9</option>
+                                        <option>School 10</option>
+                                    </select>
+                                </div>
+                                <div class="form-group d-flex justify-content-center col-12">
+                                    <button type="button" class="btn btn-outline-dark rounded-pill px-5 mx-auto">Add School</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer border-0 justify-content-center">
+                        <a class="sign-out-link" href="#">Sign Out</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="static/js/app.js"></script>
+    </body>
+</html>

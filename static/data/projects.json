@@ -1,0 +1,403 @@
+{
+  "section_title": "Projects",
+  "projects": [
+    { 
+      "columns": "col-12 col-xs-6 col-md-4 col-lg-3",
+      "link": {
+        "type": "external",
+        "href": "http://starseekingcomic.com"
+      },
+      "project_tn": "static/img/tn/tn-starseeking",
+      "project_alt": "Starseeking Comic by Anne Walker Farrell",
+      "project_title":"Starseeking Comic by Anne Walker Farrell",
+      "project_role": "Design, Html, Css, Javascript, jQuery, Wordpress Theming"
+    },
+    { 
+      "columns": "col-12 col-xs-6 col-md-4 col-lg-3",
+      "link": {
+        "type": "external",
+        "href": "http://mediakit.go.com"
+      },
+      "project_tn": "static/img/tn/tn-mk",
+      "project_alt": "Disney/ABC Television Group Media KitDisney/ABC Television Group Media Kit",
+      "project_title":"Disney/ABC Television Group Media Kit",
+      "project_role": "Design, Html, Css, Javascript, jQuery, Wordpress Theming"
+    },
+    { 
+      "columns": "col-12 col-xs-6 col-md-4 col-lg-3",
+      "link": {
+        "type": "external",
+        "href": "http://normalcontent.com"
+      },
+      "project_tn": "static/img/tn/tn-lc-normalcontent",
+      "project_alt": "Normal Content",
+      "project_title":"Normal Content",
+      "project_role": "Html, Css, Javascript, jQuery, Wordpress Theming"
+    },
+    { 
+      "columns": "col-12 col-xs-6 col-md-4 col-lg-3",
+      "link": {
+        "type": "external",
+        "href": "http://anprojects.org"
+      },
+      "project_tn": "static/img/tn/tn-lc-anprojects",
+      "project_alt": "A.N. Projects",
+      "project_title":"A.N. Projects",
+      "project_role": "Html, Css, Javascript, jQuery, Wordpress Theming"
+    },
+    { 
+      "columns": "col-12 col-xs-6 col-md-4 col-lg-3",
+      "link": {
+        "type": "internal",
+        "href": "static/img/lrg/lrg-blackonyx-logo.jpg"
+      },
+      "project_tn": "static/img/tn/tn-blackonyx-logo",
+      "project_alt": "Black Onyx Hair Studio",
+      "project_title":"Black Onyx Hair Studio",
+      "project_role": "Logo Design Concept"
+    },
+    { 
+      "columns": "col-12 col-xs-6 col-md-4 col-lg-3",
+      "link": {
+        "type": "internal",
+        "href": "static/img/lrg/lrg-ov-logo.jpg"
+      },
+      "project_tn": "static/img/tn/tn-ov-logo",
+      "project_alt": "Vicencio &amp; Associates",
+      "project_title":"Vicencio &amp; Associates",
+      "project_role": "Logo Design"
+    },
+    { 
+      "columns": "col-12 col-xs-6 col-md-4 col-lg-3",
+      "link": {
+        "type": "external",
+        "href": "http://culturecommentary.com"
+      },
+      "project_tn": "static/img/tn/tn-cc",
+      "project_alt": "Culture Commentary",
+      "project_title":"Culture Commentary",
+      "project_role": "Design, Html, Css, Javascript, jQuery, Wordpress Theming"
+    },
+    { 
+      "columns": "col-12 col-xs-6 col-md-4 col-lg-3",
+      "link": {
+        "type": "internal",
+        "href": "static/img/lrg/lrg-cc-cards.jpg"
+      },
+      "project_tn": "static/img/tn/tn-cc-cards",
+      "project_alt": "Culture Commentary",
+      "project_title":"Culture Commentary",
+      "project_role": "Business Card Design"
+    },
+    { 
+      "columns": "col-12 col-xs-6 col-md-4 col-lg-3",
+      "link": {
+        "type": "internal",
+        "href": "static/img/lrg/lrg-cc-logo.jpg"
+      },
+      "project_tn": "static/img/tn/tn-cc-logo",
+      "project_alt": "Culture Commentary Logo",
+      "project_title":"Culture Commentary Logo",
+      "project_role": "Logo Design"
+    },
+    { 
+      "columns": "col-12 col-xs-6 col-md-4 col-lg-3",
+      "link": {
+        "type": "external",
+        "href": "http://musicfundla.org"
+      },
+      "project_tn": "static/img/tn/tn-lc-mfla",
+      "project_alt": "Music Fund of Los Angeles",
+      "project_title":"Music Fund of Los Angeles",
+      "project_role": "Design, Html, Css, Javascript, jQuery, Wordpress Theming"
+    },
+    { 
+      "columns": "col-12 col-xs-6 col-md-4 col-lg-3",
+      "link": {
+        "type": "external",
+        "href": "http://proofresearch.com"
+      },
+      "project_tn": "static/img/tn/tn-lc-proofresearch",
+      "project_alt": "Proof Research",
+      "project_title":"Proof Research",
+      "project_role": "Html, Css, Javascript, jQuery, Wordpress Theming"
+    },
+    { 
+      "columns": "col-12 col-xs-6 col-md-4 col-lg-3",
+      "link": {
+        "type": "external",
+        "href": "http://isabelbeyoso.com"
+      },
+      "project_tn": "static/img/tn/tn-lc-isabelbeyoso",
+      "project_alt": "Isabel Beyoso",
+      "project_title":"Isabel Beyoso",
+      "project_role": "Design, Html, Css, Javascript, jQuery, Wordpress Theming"
+    },
+    { 
+      "columns": "col-12 col-xs-6 col-md-4 col-lg-3",
+      "link": {
+        "type": "internal",
+        "href": "static/img/lrg/lrg-lc-betfacebook.jpg"
+      },
+      "project_tn": "static/img/tn/tn-lc-betfacebook",
+      "project_alt": "Betting App for Facebook",
+      "project_title":"Betting App for Facebook",
+      "project_role": "Design Concept"
+    },
+    { 
+      "columns": "col-12 col-xs-6 col-md-4 col-lg-3",
+      "link": {
+        "type": "internal",
+        "href": "static/img/lrg/lrg-nfl-fantasydraft.jpg"
+      },
+      "project_tn": "static/img/tn/tn-nfl-fantasydraft",
+      "project_alt": "NFL Fantasy Football Draft Client",
+      "project_title":"NFL Fantasy Football Draft Client",
+      "project_role": "Wireframing, Design"
+    },
+
+    { 
+      "columns": "col-12 col-xs-6 col-md-4 col-lg-3",
+      "link": {
+        "type": "internal",
+        "href": "static/img/lrg/lrg-nfl-trainingcamp.jpg"
+      },
+      "project_tn": "static/img/tn/tn-nfl-trainingcamp",
+      "project_alt": "NFL | Inside Training Camp",
+      "project_title":"Inside Training Camp",
+      "project_role": "Design, Html, Css, Javascript, jQuery"
+    },
+    { 
+      "columns": "col-12 col-xs-6 col-md-4 col-lg-3",
+      "link": {
+        "type": "internal",
+        "href": "static/img/lrg/lrg-nfl-hof.jpg"
+      },
+      "project_tn": "static/img/tn/tn-nfl-hof",
+      "project_alt": "NFL | 2012 Hall of Fame",
+      "project_title":"2012 Hall of Fame",
+      "project_role": "Design, Html, Css, jQuery"
+    },
+    { 
+      "columns": "col-12 col-xs-6 col-md-4 col-lg-3",
+      "link": {
+        "type": "internal",
+        "href": "static/img/lrg/lrg-nfl-theseason.jpg"
+      },
+      "project_tn": "static/img/tn/tn-nfl-theseason",
+      "project_alt": "NFL | The Season",
+      "project_title":"The Season",
+      "project_role": "Design, Html, Css, Javascript, jQuery"
+    },
+    { 
+      "columns": "col-12 col-xs-6 col-md-4 col-lg-3",
+      "link": {
+        "type": "internal",
+        "href": "static/img/lrg/lrg-nfl-favoriteplayer.jpg"
+      },
+      "project_tn": "static/img/tn/tn-nfl-favoriteplayer",
+      "project_alt": "NFL | How Well Do You Know Your Favorite Player?",
+      "project_title":"How Well Do You Know Your Favorite Player?",
+      "project_role": "Design, Html, Css, Javascript, jQuery"
+    },
+    { 
+      "columns": "col-12 col-xs-6 col-md-4 col-lg-3",
+      "link": {
+        "type": "internal",
+        "href": "static/img/lrg/lrg-nfl-top20games.jpg"
+      },
+      "project_tn": "static/img/tn/tn-nfl-top20games",
+      "project_alt": "NFL Top 20 Games",
+      "project_title":"NFL Top 20 Games",
+      "project_role": "Design, Html, Css"
+    },
+    { 
+      "columns": "col-12 col-xs-6 col-md-4 col-lg-3",
+      "link": {
+        "type": "internal",
+        "href": "static/img/lrg/lrg-lc-kobelli.jpg"
+      },
+      "project_tn": "static/img/tn/tn-lc-kobelli",
+      "project_alt": "Kobelli by Baguette World Concept",
+      "project_title":"Kobelli by Baguette World Concept",
+      "project_role": "Design Concept"
+    },
+    { 
+      "columns": "col-12 col-xs-6 col-md-4 col-lg-3",
+      "link": {
+        "type": "internal",
+        "href": "static/img/lrg/lrg-lc-diamondme.jpg"
+      },
+      "project_tn": "static/img/tn/tn-lc-diamondme",
+      "project_alt": "Diamond Me",
+      "project_title":"Diamond Me",
+      "project_role": "Design, HTML, Css, jQuery, Magento Theming"
+    },
+    { 
+      "columns": "col-12 col-xs-6 col-md-4 col-lg-3",
+      "link": {
+        "type": "internal",
+        "href": "static/img/lrg/lrg-lc-lifecrowd.jpg"
+      },
+      "project_tn": "static/img/tn/tn-lc-lifecrowd",
+      "project_alt": "LifeCrowd Concept 1",
+      "project_title":"LifeCrowd Concept 1",
+      "project_role": "Design"
+    },
+    { 
+      "columns": "col-12 col-xs-6 col-md-4 col-lg-3",
+      "link": {
+        "type": "internal",
+        "href": "static/img/lrg/lrg-lc-lifecrowd2.jpg"
+      },
+      "project_tn": "static/img/tn/tn-lc-lifecrowd2",
+      "project_alt": "LifeCrowd Concept 2",
+      "project_title":"LifeCrowd Concept 2",
+      "project_role": "Design"
+    },
+    { 
+      "columns": "col-12 col-xs-6 col-md-4 col-lg-3",
+      "link": {
+        "type": "internal",
+        "href": "static/img/lrg/lrg-lc-goldenage.jpg"
+      },
+      "project_tn": "static/img/tn/tn-lc-goldenage",
+      "project_alt": "Golden Age Logo Concept",
+      "project_title":"Golden Age Logo Concept",
+      "project_role": "Design"
+    },
+    { 
+      "columns": "col-12 col-xs-6 col-md-4 col-lg-3",
+      "link": {
+        "type": "external",
+        "href": "http://www.emilytakemori.com"
+      },
+      "project_tn": "static/img/tn/tn-lc-emilytakemori",
+      "project_alt": "Emily Takemori",
+      "project_title":"Emily Takemori",
+      "project_role": "Design, Html, Css, PHP, jQuery"
+    },
+    { 
+      "columns": "col-12 col-xs-6 col-md-4 col-lg-3",
+      "link": {
+        "type": "internal",
+        "href": "static/img/lrg/lrg-lc-amylacour.jpg"
+      },
+      "project_tn": "static/img/tn/tn-lc-amylacour",
+      "project_alt": "Amy LaCour",
+      "project_title":"Amy LaCour",
+      "project_role": "Design, Html, Css, PHP, jQuery"
+    },
+    { 
+      "columns": "col-12 col-xs-6 col-md-4 col-lg-3",
+      "link": {
+        "type": "internal",
+        "href": "static/img/lrg/lrg-lc-amylacourcms.jpg"
+      },
+      "project_tn": "static/img/tn/tn-lc-amylacourcms",
+      "project_alt": "Amy LaCour CMS",
+      "project_title":"Amy LaCour CMS",
+      "project_role": "Html, Css, PHP, jQuery"
+    },
+    { 
+      "columns": "col-12 col-xs-6 col-md-4 col-lg-3",
+      "link": {
+        "type": "internal",
+        "href": "static/img/lrg/lrg-extv-exercisetv.jpg"
+      },
+      "project_tn": "static/img/tn/tn-extv-exercisetv",
+      "project_alt": "ExerciseTV Design Concept",
+      "project_title":"ExerciseTV v.4",
+      "project_role": "Design Concept"
+    },
+    { 
+      "columns": "col-12 col-xs-6 col-md-4 col-lg-3",
+      "link": {
+        "type": "internal",
+        "href": "static/img/lrg/lrg-extv-loseweightin8.jpg"
+      },
+      "project_tn": "static/img/tn/tn-extv-loseweightin8",
+      "project_alt": "ExerciseTV | Lose Weight in 8",
+      "project_title":"Lose Weight in 8 by ExerciseTV",
+      "project_role": "Design, Html, Css, jQuery"
+    },
+    { 
+      "columns": "col-12 col-xs-6 col-md-4 col-lg-3",
+      "link": {
+        "type": "internal",
+        "href": "static/img/lrg/lrg-extv-lesliesansone.jpg"
+      },
+      "project_tn": "static/img/tn/tn-extv-lesliesansone",
+      "project_alt": "ExerciseTV | Start! Walking at Home with Leslie Sansone",
+      "project_title":"Start! Walking at Home with Leslie Sansone by ExerciseTV",
+      "project_role": "Design, Html, Css, jQuery"
+    },
+    { 
+      "columns": "col-12 col-xs-6 col-md-4 col-lg-3",
+      "link": {
+        "type": "internal",
+        "href": "static/img/lrg/lrg-extv-fitness360.jpg"
+      },
+      "project_tn": "static/img/tn/tn-extv-fitness360",
+      "project_alt": "ExerciseTV | Fitness 360",
+      "project_title":"Fitness 360 by ExerciseTV",
+      "project_role": "Design, Html, Css, jQuery"
+    },
+    { 
+      "columns": "col-12 col-xs-6 col-md-4 col-lg-3",
+      "link": {
+        "type": "internal",
+        "href": "static/img/lrg/lrg-extv-bodylicious.jpg"
+      },
+      "project_tn": "static/img/tn/tn-extv-bodylicious",
+      "project_alt": "ExerciseTV | Bodylicious",
+      "project_title":"Bodylicious by ExerciseTV",
+      "project_role": "Design, Html, Css, jQuery"
+    },
+    { 
+      "columns": "col-12 col-xs-6 col-md-4 col-lg-3",
+      "link": {
+        "type": "internal",
+        "href": "static/img/lrg/lrg-extv-walktober.jpg"
+      },
+      "project_tn": "static/img/tn/tn-extv-walktober",
+      "project_alt": "ExerciseTV | Walktober",
+      "project_title":"Walktober by ExerciseTV",
+      "project_role": "Design, Html, Css, jQuery"
+    },
+    { 
+      "columns": "col-12 col-xs-6 col-md-4 col-lg-3",
+      "link": {
+        "type": "internal",
+        "href": "static/img/lrg/lrg-extv-5factorfitness.jpg"
+      },
+      "project_tn": "static/img/tn/tn-extv-5factorfitness",
+      "project_alt": "ExerciseTV | 5 Factor Fitness",
+      "project_title":"5 Factor Fitness by ExerciseTV",
+      "project_role": "Design, Html, Css, jQuery"
+    },
+    { 
+      "columns": "col-12 col-xs-6 col-md-4 col-lg-3",
+      "link": {
+        "type": "internal",
+        "href": "static/img/lrg/lrg-extv-crunch.jpg"
+      },
+      "project_tn": "static/img/tn/tn-extv-crunch",
+      "project_alt": "ExerciseTV | Crunch Fitness",
+      "project_title":"Crunch Fitness by ExerciseTV",
+      "project_role": "Design, Html, Css, jQuery"
+    },
+    { 
+      "columns": "col-12 col-xs-6 col-md-4 col-lg-3",
+      "link": {
+        "type": "internal",
+        "href": "static/img/lrg/lrg-extv-kendra.jpg"
+      },
+      "project_tn": "static/img/tn/tn-extv-kendra",
+      "project_alt": "ExerciseTV | Be a Knockout With Kendra",
+      "project_title":"Be a Knockout With Kendra by ExerciseTV",
+      "project_role": "Design, Html, Css, jQuery"
+    }
+
+  ]
+}

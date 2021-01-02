@@ -1,0 +1,84 @@
+
+// ========================================
+// **** HERO ****
+// ========================================
+
+.section-hero {
+  padding               : rem(80) 0;
+  background-size       : cover;
+  background-image      : url('../img/bg_palms.webp');
+  background-color      : $blacktop; 
+  background-repeat     : no-repeat;
+  background-position   : center top;
+  background-attachment : fixed;
+
+  @media only screen and ($xs) {
+    padding : rem(128) 0;
+  }
+
+	&__title{
+    color         : $white;
+    font-size     : rem(32);
+    text-align    : center;
+    line-height   : rem(40);
+    font-weight   : normal;
+    margin-bottom : rem(16);
+
+    @media only screen and ($xs) {
+      font-size   : rem(64);
+      line-height : rem(64);
+    }
+
+    @media only screen and ($sm) {
+      font-size   : rem(90);
+      line-height : rem(90);
+    }
+  }
+
+	&__subtitle {
+    color         : $white;
+    font-size     : rem(12);
+    text-align    : center;
+		font-weight   : normal;
+    line-height   : rem(20);
+		font-family   : 'GothamMedium', sans-serif;
+    margin-bottom : rem(32);
+  
+      @media only screen and ($xs) {
+      font-size   : rem(16);
+      line-height : rem(24);
+    }
+
+    @media only screen and ($sm) {
+      font-size   : rem(20);
+      line-height : rem(20);
+    }
+  }
+
+  &__description {
+  	text-align : center;
+  
+    @media only screen and ($xs) {
+     margin-top : rem(128);
+   }
+  }
+
+  a {
+    color         : $white;
+  	border        : rem(1) solid $white;
+    margin        : 0 auto;
+    display       : inline-block;
+    padding       : rem(12) rem(48);
+  	font-size     : rem(16);
+    font-weight   : normal;
+    font-family   : 'GothamMedium', sans-serif;
+  	border-radius : rem(2);
+
+    &:hover {
+      color            : $blacktop;
+      font-family      : 'GothamMedium', sans-serif;
+      text-decoration  : none;
+      background-color : $white;
+    }
+  }
+}

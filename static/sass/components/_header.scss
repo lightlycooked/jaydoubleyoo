@@ -1,0 +1,47 @@
+
+// ========================================
+//
+// **** HEADER ****
+//
+// ========================================
+
+.header {
+  top              : 0;
+  padding          : rem(16) 0;
+  display          : flex;
+  z-index          : 100;
+  position         : sticky;
+  transition       : background-color 0.8s ease-in-out 0s, background-filter 0.8s ease-in-out 0s, transform 0.22s ease-in-out 0s;
+  justify-content  : center;
+  background-color : $crimson;
+	
+  &__logo {
+    display   : flex;
+    max-width : rem(72);
+}
+  
+  &__logo-link {
+    display : flex;
+  }
+
+  &.has-backdrop {
+    backdrop-filter  : blur(rem(10));  
+    background-color : rgba($crimson, 0.8);
+  }
+}
+
+
+// ========================================
+//
+// **** NAVIGATION ****
+//
+// ========================================
+
+.navigation {
+  display     : none;
+  align-items : center;
+  margin-left : auto;
+  &__list {
+    display : flex;
+  }
+}

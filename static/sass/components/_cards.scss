@@ -1,0 +1,63 @@
+
+// ========================================
+// **** PROJECT CARDS ****
+// ========================================
+
+
+.section-projects {
+  background-color : $blacktop; 
+  
+  .container {
+    max-width: rem(1440);
+  }
+
+	&__title {
+    color      : $crimson;
+    text-align : center;
+  }
+
+  .card {
+    border           : rem(.5) solid #0a0a0a;
+    display          : flex;
+    position         : relative;
+    overflow         : hidden;
+    transform        : translate3d(0, 0, 0);
+    transition       : transform 0.3s;
+    margin-bottom    : rem(48);
+    border-radius    : rem(8); 
+    background-color : #0a0a0a;
+
+    &:hover {
+      transform : translate3d(0, rem(-4), 0);
+    }
+
+    &__link {
+      width    : 100%;
+      height   : auto;
+      display  : block;
+      position : relative;
+    }
+    
+    &__header {
+    }
+
+  
+    &__body {
+      padding : rem(24) rem(16); 
+    }
+
+    &__title {
+      color         : #c1c1c1;
+      font-size     : rem(20);
+      margin-bottom : rem(16);
+    }
+
+    &__description {
+      color          : $white;
+      font-size      : rem(12); 
+      font-family    : 'GothamMedium', sans-serif;
+      text-transform : uppercase;
+    }
+
+  }
+}

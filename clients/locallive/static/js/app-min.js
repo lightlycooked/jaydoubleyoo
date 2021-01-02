@@ -1,0 +1,1 @@
+jQuery((function(e){var t=e(".twitter-nav-link"),i=e(".schedule-content"),n=e(".schedule-feed"),c=e(".twitter-feed");t.on("click",(function(e){e.preventDefault(),console.log("twitter link click"),c.hasClass("active")?(i.find("section").removeClass("active"),i.find(n).addClass("active")):(i.find("section").removeClass("active"),i.find(c).addClass("active"))}))}));
