@@ -44,7 +44,7 @@
         <section id="masthead" class="masthead parallax">
             <div class="container">
                 <h1>Brand Ambassador</h1>
-                <h2>I'm Jason A. White. Designer &amp; Front-end Developer based in Los Angeles.</h2>
+                <h2>I'm JayDoubleYoo &amp; I am a Front-end Developer based in Los Angeles.</h2>
                 <p><a href="mailto:jw@jaydoubleyoo.com" >HIRE ME</a></p>
             </div>
         </section>
