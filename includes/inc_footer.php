@@ -22,7 +22,6 @@
      </li>
     </ul>
 
-    <div id="mylastfm"></div>
   </div>
 </footer>
 
