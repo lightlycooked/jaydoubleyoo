@@ -3,21 +3,6 @@
 $(document).ready(function(){
 
 
-
-
-
-
-
-// $(window).scroll( function(){
-//   var value = $('.section-testimonials').scrollTop();
-//   console.log('scrolltop: '+value);
-
-//  // var top = $('.parallax').scrollTop( value * 50);
-//  $('.section-testimonials').css({'background-position' : 'center '+value+'px'});
-
-// });
-
-
   // BACK TO TOP
 	$(function() {
     let toTop = $('.back-top');

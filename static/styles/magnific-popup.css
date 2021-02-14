@@ -287,7 +287,8 @@ img.mfp-img {
   line-height: 18px;
   color: #f3f3f3;
   word-wrap: break-word;
-  padding-right: 36px; }
+  padding-right: 36px; 
+  font-family: "GothamMedium"}
 
 .mfp-image-holder .mfp-content {
   max-width: 100%; }

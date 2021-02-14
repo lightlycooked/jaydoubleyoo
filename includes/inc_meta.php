@@ -6,8 +6,8 @@
 <link rel="icon" type="image/png" sizes="32x32" href="/static/img/favicon/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/static/img/favicon/favicon-16x16.png">
 <link rel="manifest" href="/static/img/favicon/site.webmanifest">
-<link rel="preload" as="style" href="static/styles/app.min.css" />
-<link rel="stylesheet" media="all" href="static/styles/app.min.css"/>
+<link rel="preload" as="style" href="static/styles/app.css" />
+<link rel="stylesheet" media="all" href="static/styles/app.css"/>
 <meta name="google-site-verification" content="w2UNsN5N7I4Mc-iEJS_oP1kU0QUE9Y5FlW-uzhRgAGY" />
 <meta name="p:domain_verify" content="f10560e7bd4b0bac803c4807aebc235e"/>
 <meta name="twitter:card" content="summary_large_image" />

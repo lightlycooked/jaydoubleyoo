@@ -4,28 +4,6 @@
     { 
       "columns": "col-12 col-xs-6 col-md-4 col-lg-3",
       "link": {
-        "type": "internal",
-        "href": "static/img/lrg/lrg-bhcbj-cards.jpg"
-      },
-      "project_tn": "static/img/tn/tn-bhcbj-cards",
-      "project_alt": "Black Hair Care by Justine",
-      "project_title":"Black Hair Care by Justine",
-      "project_role": "Business Card Design"
-    },
-    { 
-      "columns": "col-12 col-xs-6 col-md-4 col-lg-3",
-      "link": {
-        "type": "internal",
-        "href": "static/img/lrg/lrg-bhcbj-logo.jpg"
-      },
-      "project_tn": "static/img/tn/tn-bhcbj-logo",
-      "project_alt": "Black Hair Care by Justine Logo",
-      "project_title":"Black Hair Care by Justine Logo",
-      "project_role": "Logo Design"
-    },
-    { 
-      "columns": "col-12 col-xs-6 col-md-4 col-lg-3",
-      "link": {
         "type": "external",
         "href": "http://starseekingcomic.com"
       },
@@ -37,8 +15,8 @@
     { 
       "columns": "col-12 col-xs-6 col-md-4 col-lg-3",
       "link": {
-        "type": "internal",
-        "href": "static/img/lrg/lrg-disney-mediakit.jpglrg-disney-mediakit.jpgv."
+        "type": "external",
+        "href": "http://mediakit.go.com"
       },
       "project_tn": "static/img/tn/tn-mk",
       "project_alt": "Disney/ABC Television Group Media KitDisney/ABC Television Group Media Kit",
@@ -92,13 +70,13 @@
     { 
       "columns": "col-12 col-xs-6 col-md-4 col-lg-3",
       "link": {
-        "type": "internal",
-        "href": "static/img/lrg/lrg-undergroundpyramids-logo.jpg"
+        "type": "external",
+        "href": "http://culturecommentary.com"
       },
-      "project_tn": "static/img/tn/tn-undergroundpyramids-logo",
-      "project_alt": "Underground Pyramids Logo Concept",
-      "project_title":"Underground Pyramids Logo Concept",
-      "project_role": "Logo Design"
+      "project_tn": "static/img/tn/tn-cc",
+      "project_alt": "Culture Commentary",
+      "project_title":"Culture Commentary",
+      "project_role": "Design, Html, Css, Javascript, jQuery, Wordpress Theming"
     },
     { 
       "columns": "col-12 col-xs-6 col-md-4 col-lg-3",
@@ -107,7 +85,7 @@
         "href": "static/img/lrg/lrg-cc-cards.jpg"
       },
       "project_tn": "static/img/tn/tn-cc-cards",
-      "project_alt": "Culture Commentary Business Card Design",
+      "project_alt": "Culture Commentary",
       "project_title":"Culture Commentary",
       "project_role": "Business Card Design"
     },
@@ -215,6 +193,17 @@
       "columns": "col-12 col-xs-6 col-md-4 col-lg-3",
       "link": {
         "type": "internal",
+        "href": "static/img/lrg/lrg-nfl-favoriteplayer.jpg"
+      },
+      "project_tn": "static/img/tn/tn-nfl-favoriteplayer",
+      "project_alt": "NFL | How Well Do You Know Your Favorite Player?",
+      "project_title":"How Well Do You Know Your Favorite Player?",
+      "project_role": "Design, Html, Css, Javascript, jQuery"
+    },
+    { 
+      "columns": "col-12 col-xs-6 col-md-4 col-lg-3",
+      "link": {
+        "type": "internal",
         "href": "static/img/lrg/lrg-nfl-top20games.jpg"
       },
       "project_tn": "static/img/tn/tn-nfl-top20games",
@@ -226,12 +215,45 @@
       "columns": "col-12 col-xs-6 col-md-4 col-lg-3",
       "link": {
         "type": "internal",
+        "href": "static/img/lrg/lrg-lc-kobelli.jpg"
+      },
+      "project_tn": "static/img/tn/tn-lc-kobelli",
+      "project_alt": "Kobelli by Baguette World Concept",
+      "project_title":"Kobelli by Baguette World Concept",
+      "project_role": "Design Concept"
+    },
+    { 
+      "columns": "col-12 col-xs-6 col-md-4 col-lg-3",
+      "link": {
+        "type": "internal",
         "href": "static/img/lrg/lrg-lc-diamondme.jpg"
       },
       "project_tn": "static/img/tn/tn-lc-diamondme",
-      "project_alt": "Diamond Me by Kobelli",
-      "project_title":"Diamond Me by Kobelli",
+      "project_alt": "Diamond Me",
+      "project_title":"Diamond Me",
       "project_role": "Design, HTML, Css, jQuery, Magento Theming"
+    },
+    { 
+      "columns": "col-12 col-xs-6 col-md-4 col-lg-3",
+      "link": {
+        "type": "internal",
+        "href": "static/img/lrg/lrg-lc-lifecrowd.jpg"
+      },
+      "project_tn": "static/img/tn/tn-lc-lifecrowd",
+      "project_alt": "LifeCrowd Concept 1",
+      "project_title":"LifeCrowd Concept 1",
+      "project_role": "Design"
+    },
+    { 
+      "columns": "col-12 col-xs-6 col-md-4 col-lg-3",
+      "link": {
+        "type": "internal",
+        "href": "static/img/lrg/lrg-lc-lifecrowd2.jpg"
+      },
+      "project_tn": "static/img/tn/tn-lc-lifecrowd2",
+      "project_alt": "LifeCrowd Concept 2",
+      "project_title":"LifeCrowd Concept 2",
+      "project_role": "Design"
     },
     { 
       "columns": "col-12 col-xs-6 col-md-4 col-lg-3",
@@ -254,6 +276,39 @@
       "project_alt": "Emily Takemori",
       "project_title":"Emily Takemori",
       "project_role": "Design, Html, Css, PHP, jQuery"
+    },
+    { 
+      "columns": "col-12 col-xs-6 col-md-4 col-lg-3",
+      "link": {
+        "type": "internal",
+        "href": "static/img/lrg/lrg-lc-amylacour.jpg"
+      },
+      "project_tn": "static/img/tn/tn-lc-amylacour",
+      "project_alt": "Amy LaCour",
+      "project_title":"Amy LaCour",
+      "project_role": "Design, Html, Css, PHP, jQuery"
+    },
+    { 
+      "columns": "col-12 col-xs-6 col-md-4 col-lg-3",
+      "link": {
+        "type": "internal",
+        "href": "static/img/lrg/lrg-lc-amylacourcms.jpg"
+      },
+      "project_tn": "static/img/tn/tn-lc-amylacourcms",
+      "project_alt": "Amy LaCour CMS",
+      "project_title":"Amy LaCour CMS",
+      "project_role": "Html, Css, PHP, jQuery"
+    },
+    { 
+      "columns": "col-12 col-xs-6 col-md-4 col-lg-3",
+      "link": {
+        "type": "internal",
+        "href": "static/img/lrg/lrg-extv-exercisetv.jpg"
+      },
+      "project_tn": "static/img/tn/tn-extv-exercisetv",
+      "project_alt": "ExerciseTV Design Concept",
+      "project_title":"ExerciseTV v.4",
+      "project_role": "Design Concept"
     },
     { 
       "columns": "col-12 col-xs-6 col-md-4 col-lg-3",

@@ -63,22 +63,20 @@
    }
   }
 
-  a {
-    color         : $white;
-  	border        : rem(1) solid $white;
-    margin        : 0 auto;
-    display       : inline-block;
-    padding       : rem(12) rem(48);
-  	font-size     : rem(16);
-    font-weight   : normal;
-    font-family   : 'GothamMedium', sans-serif;
-  	border-radius : rem(2);
-
-    &:hover {
-      color            : $blacktop;
-      font-family      : 'GothamMedium', sans-serif;
-      text-decoration  : none;
-      background-color : $white;
-    }
-  }
+      a {
+        border         : rem(1) solid $white;
+        color          : $white;
+        display        : inline-block;
+        margin         : rem(20) auto;
+        padding        : rem(16) rem(48);
+        font-size      : rem(16);
+        transition     : all 0.5s ease;
+        font-family    : 'GothamMedium', sans-serif;
+        border-radius  : rem(2);
+        text-transform : uppercase;
+        &:hover {
+          color            : $blacktop;
+          background-color : $white; 
+        }
+      }
 }
