@@ -18,4 +18,4 @@ jobs:
         server: giowm1136.siteground.biz
         username: ${{ secrets.ftp_username }}
         password: ${{ secrets.ftp_password }}
-        server-dir: /public_html/
+        server-dir: /jaydoubleyoo.com/public_html/
