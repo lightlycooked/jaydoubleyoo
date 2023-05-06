@@ -1,1 +1,10 @@
 *.codekit3
+.DS_Store
+config.codekit3
+/audioplayer/.DS_Store
+/audioplayer/assets/.DS_Store
+/static/img/tn/.DS_Store
+/static/sass/.DS_Store
+/static/sass/components/.DS_Store
+/static/sass/components/grid/.DS_Store
+/static/styles/.DS_Store

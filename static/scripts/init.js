@@ -66,6 +66,28 @@ $(document).ready(function(){
 	$('.card .internal').magnificPopup({type:'image'});
 
    // MyLast.FM
-   $('#mylastfm').mylastfm();
-   
+   // $('#mylastfm').mylastfm(); 
+
+
+
+  let endpoint = 'https://api.spotify.com/v1/me/player/recently-played?limit=1';
+  let token = 'BQC8CfcAGrwMN_0YNQieXNTg9joA86wwSCkZLmkZ8hkQdE-8P6BCUHa9haBFKi5TX_BbBF7pWmlzI7ZVXsiW6jt7V2NCrZnO3Ifv36QJDkVvvCrXSPr3EoRQ4A7KNCSIBRTn2TzBnwswf8S7h8UrTG1ROum_q-deUfIKUVlvtRXFAu72dNc_C4g';
+  $.ajax({
+    url: endpoint,
+    type: 'GET',
+    headers: {
+        'Authorization' : 'Bearer ' + token
+    },
+    success: function(data) {
+
+      $.each(data, function(index, item) {
+        console.log("item: ", item.context.type);
+        //now you can access properties using dot notation
+      });
+
+
+    }
+  });
+
+
 });
